@@ -60,7 +60,7 @@ Advertised prices are not revenue; there are no booking, occupancy or review-tex
 Each recommendation can be evaluated by checking that segmented medians are tighter than unsegmented ones, that no dashboard label equates review volume with quality, and that every host KPI shows its denominator.
 
 ## 8. Reproduction
-See `README.md`: place the original CSVs in `data/raw/`, install `requirements.txt`, and run the notebook top to bottom (fixed seed 42).
+See `README.md`: place the original CSVs in `RAW_DIR = r"C:\Users\Tarfa_Jr\Downloads" `, install `requirements.txt`, and run the notebook top to bottom (fixed seed 42).
 
 ## 9. Contribution and integration
 The cleaned listing table, per-listing review counts, per-city price summaries and the cleaning log are saved in `outputs/` and use the shared definitions (listing count = unique `listing_id`; advertised price = local-currency price > 0; review count = review rows per `listing_id`). No integration with other tracks' work is claimed.
